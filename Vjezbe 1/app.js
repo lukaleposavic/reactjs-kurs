@@ -1,4 +1,5 @@
-   const student = (props) =>{
+
+  const student = (props) =>{
        console.log(props);
        return React.createElement("div",{},[
         React.createElement("h2",{},props.name),
